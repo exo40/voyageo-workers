@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="Bus (photo non renseignée)"><defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#DCEBF5"/><stop offset="1" stop-color="#F4F8FB"/></linearGradient></defs><rect width="800" height="500" fill="url(#g)"/><rect y="400" width="800" height="100" fill="#C9D3DC"/>
+<g transform="translate(120 150) scale(1.7)">
+  <ellipse cx="170" cy="150" rx="150" ry="9" fill="#000" opacity=".18"/>
+  <rect x="10" y="30" width="320" height="110" rx="18" fill="#F28C28"/>
+  <rect x="10" y="100" width="320" height="14" fill="#1F3A5F" opacity=".85"/>
+  <rect x="26" y="46" width="52" height="40" rx="6" fill="#E8F4FA"/><rect x="88" y="46" width="52" height="40" rx="6" fill="#E8F4FA"/>
+  <rect x="150" y="46" width="52" height="40" rx="6" fill="#E8F4FA"/><rect x="212" y="46" width="52" height="40" rx="6" fill="#E8F4FA"/>
+  <path d="M276 46h34a8 8 0 0 1 8 8v32a0 0 0 0 1 0 0h-42z" fill="#CFE8F3"/>
+  <rect x="318" y="96" width="14" height="10" rx="3" fill="#FFE08A"/>
+  <circle cx="82" cy="142" r="21" fill="#2B2F36"/><circle cx="82" cy="142" r="9" fill="#9AA5B1"/>
+  <circle cx="252" cy="142" r="21" fill="#2B2F36"/><circle cx="252" cy="142" r="9" fill="#9AA5B1"/>
+</g></svg>

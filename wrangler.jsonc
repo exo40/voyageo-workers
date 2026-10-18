@@ -1,0 +1,35 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "voyageo",
+  "main": "worker.js",
+  "compatibility_date": "2026-10-18",
+  "compatibility_flags": [
+    "nodejs_compat",
+    "nodejs_compat_populate_process_env"
+  ],
+  "vars": {
+    "NODE_ENV": "production",
+    "CLOUDFLARE_WORKERS": "1",
+    "DB_DRIVER": "mysql",
+    "DEMO_DATA": "false"
+  },
+  "hyperdrive": [
+    {
+      "binding": "HYPERDRIVE",
+      "id": "2f87a549536a4ba5ba140b0b3cf69c3d"
+    }
+  ],
+  "r2_buckets": [
+    {
+      "bucket_name": "voyageo-photos",
+      "binding": "voyageo_photos",
+      "remote": true
+    }
+  ],
+  "assets": {
+    "directory": "./worker-assets",
+    "binding": "ASSETS",
+    "html_handling": "none",
+    "run_worker_first": true
+  }
+}

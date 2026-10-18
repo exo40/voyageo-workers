@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex">
+<title>Administration | Voyagéo</title>
+<meta name="theme-color" content="#11284A">
+<link rel="icon" href="/img/favicon.svg" type="image/svg+xml">
+<script src="/js/theme.js"></script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&amp;family=Poppins:wght@500;600;700&amp;display=swap">
+<link rel="stylesheet" href="/vendor/bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" href="/css/voyageo.css">
+<link rel="stylesheet" href="/css/admin.css">
+</head>
+<body class="adm">
+<a class="skip-link" href="#admin-content">Aller au contenu</a>
+<div class="adm-shell">
+  <aside class="adm-side" id="adm-side" aria-label="Menu d'administration">
+    <a class="adm-brand" href="/admin" aria-label="Voyagéo, tableau de bord">
+      <img src="/img/logo-icon.svg" alt="" width="38" height="29"><span class="vy-wordmark">Voya<span>géo</span></span>
+    </a>
+    <div class="adm-scope" id="adm-scope"></div>
+    <nav id="adm-nav" aria-label="Sections"></nav>
+    <div class="adm-side-foot" id="adm-foot"></div>
+  </aside>
+  <div class="backdrop-side" id="adm-backdrop"></div>
+  <div class="adm-main">
+    <header class="adm-top">
+      <button class="icon-btn adm-menu-btn" id="adm-menu" type="button" aria-label="Ouvrir le menu" aria-controls="adm-side" aria-expanded="false"></button>
+      <div class="grow"><h1 id="adm-title">Administration</h1><div class="sub" id="adm-sub"></div></div>
+      <span class="adm-date num" id="adm-date"></span>
+      <button class="icon-btn" id="adm-refresh" type="button" title="Actualiser" aria-label="Actualiser les données"></button>
+      <div class="rel" id="adm-bell-wrap"></div>
+      <div class="rel" id="adm-user-wrap"></div>
+    </header>
+    <main class="adm-content" id="admin-content" tabindex="-1"><noscript><p class="alert alert-warning">JavaScript est nécessaire pour utiliser l'administration.</p></noscript></main>
+  </div>
+</div>
+
+<datalist id="villes-dl"></datalist>
+
+<div class="modal fade" id="formModal" tabindex="-1" aria-labelledby="formModalTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered">
+    <form class="modal-content" id="modalForm" novalidate>
+      <div class="modal-header"><h2 class="modal-title fs-5" id="formModalTitle"></h2><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fermer"></button></div>
+      <div class="modal-body" id="modalBody"></div>
+      <div class="modal-footer"><div id="modalError" class="text-danger me-auto small" role="alert"></div><button type="button" class="btn btn-vy-outline" data-bs-dismiss="modal">Annuler</button><button type="submit" class="btn btn-vy" id="modalSubmit">Enregistrer</button></div>
+    </form>
+  </div>
+</div>
+
+<div class="modal fade" id="confirmModal" tabindex="-1" aria-labelledby="confirmTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header"><h2 class="modal-title fs-5" id="confirmTitle"></h2><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fermer"></button></div>
+      <div class="modal-body" id="confirmBody"></div>
+      <div class="modal-footer"><button type="button" class="btn btn-vy-outline" data-bs-dismiss="modal">Annuler</button><button type="button" class="btn btn-vy" id="confirmOk">Confirmer</button></div>
+    </div>
+  </div>
+</div>
+
+<div class="offcanvas offcanvas-end" tabindex="-1" id="detailDrawer" aria-labelledby="drawerTitle">
+  <div class="offcanvas-header"><h2 class="offcanvas-title fs-5" id="drawerTitle"></h2><button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Fermer"></button></div>
+  <div class="offcanvas-body" id="drawerBody"></div>
+</div>
+
+<script src="/vendor/bootstrap/js/bootstrap.bundle.min.js" defer></script>
+<script type="module" src="/js/admin.js"></script>
+</body>
+</html>

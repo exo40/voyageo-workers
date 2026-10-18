@@ -1,0 +1,5 @@
+ANCIEN schéma MySQL et migrations (versions 1.0 à 1.2), CONSERVÉS POUR MÉMOIRE UNIQUEMENT.
+Ne plus les exécuter : la base de production est créée par les trois scripts du dossier parent, dans cet ordre :
+  1. voyageo_mysql_production.sql    (cœur : tables, règles d'intégrité, déclencheurs, vues)
+  2. voyageo_extensions_site.sql     (chauffeurs, avis, pourboires, journal d'audit, abonnements, photos, consentement)
+  3. voyageo_compte_applicatif.sql   (compte MySQL du site à droits minimum)

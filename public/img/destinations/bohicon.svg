@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="Illustration de Bohicon"><defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F7C56B"/><stop offset="1" stop-color="#F4E1B0"/></linearGradient></defs><rect width="800" height="500" fill="url(#g)"/><circle cx="640" cy="150" r="60" fill="#FFF0B8"/><circle cx="640" cy="150" r="90" fill="#FFF0B8" opacity=".25"/>
+<path d="M0 340q200-50 400-10t400-20v110H0z" fill="#C99A4A"/>
+<g fill="#6B4A2B"><path d="M130 345c-6-60-4-110 0-130h26c4 20 6 70 0 130z"/><path d="M570 350c-6-50-4-90 0-108h22c4 18 6 58 0 108z"/></g>
+<g fill="#4C8A3C"><circle cx="143" cy="205" r="52"/><circle cx="104" cy="226" r="34"/><circle cx="182" cy="226" r="34"/><circle cx="581" cy="236" r="40"/><circle cx="552" cy="252" r="26"/><circle cx="610" cy="252" r="26"/></g>
+<rect y="420" width="800" height="80" fill="#4A3F35"/><g fill="#F5F5F5" opacity=".8"><rect x="20" y="458" width="56" height="6" rx="3"/><rect x="125" y="458" width="56" height="6" rx="3"/><rect x="230" y="458" width="56" height="6" rx="3"/><rect x="335" y="458" width="56" height="6" rx="3"/><rect x="440" y="458" width="56" height="6" rx="3"/><rect x="545" y="458" width="56" height="6" rx="3"/><rect x="650" y="458" width="56" height="6" rx="3"/><rect x="755" y="458" width="56" height="6" rx="3"/></g>
+<g transform="translate(250 300) scale(1)">
+  <ellipse cx="170" cy="150" rx="150" ry="9" fill="#000" opacity=".18"/>
+  <rect x="10" y="30" width="320" height="110" rx="18" fill="#C0392B"/>
+  <rect x="10" y="100" width="320" height="14" fill="#1F3A5F" opacity=".85"/>
+  <rect x="26" y="46" width="52" height="40" rx="6" fill="#E8F4FA"/><rect x="88" y="46" width="52" height="40" rx="6" fill="#E8F4FA"/>
+  <rect x="150" y="46" width="52" height="40" rx="6" fill="#E8F4FA"/><rect x="212" y="46" width="52" height="40" rx="6" fill="#E8F4FA"/>
+  <path d="M276 46h34a8 8 0 0 1 8 8v32a0 0 0 0 1 0 0h-42z" fill="#CFE8F3"/>
+  <rect x="318" y="96" width="14" height="10" rx="3" fill="#FFE08A"/>
+  <circle cx="82" cy="142" r="21" fill="#2B2F36"/><circle cx="82" cy="142" r="9" fill="#9AA5B1"/>
+  <circle cx="252" cy="142" r="21" fill="#2B2F36"/><circle cx="252" cy="142" r="9" fill="#9AA5B1"/>
+</g></svg>

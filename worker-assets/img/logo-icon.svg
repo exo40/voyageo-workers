@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-1 -1 46 35" role="img" aria-label="Voyagéo">
+  <rect x="0" y="0" width="44" height="26" rx="6" fill="#1F3A5F"/>
+  <rect x="0" y="16.5" width="44" height="3" fill="#F28C28"/>
+  <rect x="5" y="5" width="8" height="8" rx="1.5" fill="#fff"/><rect x="16" y="5" width="8" height="8" rx="1.5" fill="#fff"/><rect x="27" y="5" width="8" height="8" rx="1.5" fill="#fff"/>
+  <rect x="37" y="5" width="4" height="8" rx="1" fill="#fff"/>
+  <circle cx="11" cy="26" r="5.2" fill="#1F3A5F" stroke="#fff" stroke-width="1.8"/><circle cx="11" cy="26" r="1.8" fill="#fff"/>
+  <circle cx="34" cy="26" r="5.2" fill="#1F3A5F" stroke="#fff" stroke-width="1.8"/><circle cx="34" cy="26" r="1.8" fill="#fff"/>
+</svg>

@@ -1,0 +1,47 @@
+node_modules/
+.env
+data/*.json
+data/*.tmp
+*.log
+.DS_Store
+data/uploads/
+
+# Secrets et configuration locale
+.dev.vars
+.dev.vars.*
+!.dev.vars.example
+.env.*
+!.env.example
+.wrangler/
+coverage/
+
+# Clés et certificats
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Sauvegardes locales
+*.sql
+*.sqlite
+*.db
+*.tar.gz
+
+# Autoriser les scripts SQL du projet
+!database/*.sql
+!database/ancien_schema/*.sql
+
+# Fichiers locaux à ne pas publier
+.backups/
+backups/
+private/
+worker.js.*
+wrangler.jsonc.*
+database/voyageo_compte_applicatif.sql
+
+# Anciennes copies de travail
+src/**/*.backup*
+src/**/*.avant-*
+src/**/*.before-*
+src/**/*.bak*
+/database/voyageo_mysql_production.sql
